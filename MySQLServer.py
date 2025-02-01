@@ -11,7 +11,7 @@ try:
         
     mycursor = mydb.cursor()
     
-    mycursor.execute("CREATE DATABASE IF NOT EXISTS alxbookstore")
+    mycursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
     print("Database 'alxbookstore' created or alredy exists!")
     
     # close the conncetion 
@@ -22,7 +22,7 @@ try:
             host = "localhost",
             user = "stennis",
             password = "Password123!",
-            database = "alxbookstore",
+            database = "alx_book_store",
             ) as connection:
                 print(connection)
 
