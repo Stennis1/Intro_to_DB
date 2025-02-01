@@ -11,7 +11,7 @@ try:
         
     mycursor = mydb.cursor()
     
-    mycursor.execute('CREATE DATABASE IF NOT EXISTS alxbookstore')
+    mycursor.execute("CREATE DATABASE IF NOT EXISTS alxbookstore")
     print("Database 'alxbookstore' created or alredy exists!")
     
     # close the conncetion 
