@@ -16,15 +16,15 @@ CREATE TABLE Authors (
 );
 
 CREATE TABLE Customers (
-    cutomer_id INT PRIMARY KEY,
-    cutomer_name VARCHAR(215),
+    customer_id INT PRIMARY KEY,
+    customer_name VARCHAR(215),
     email VARCHAR(215),
     address TEXT,
 );
 
 CREATE TABLE Orders (
     order_id INT PRIMARY KEY,
-    cutomer_id FOREIGN KEY,
+    customer_id FOREIGN KEY,
     order_date DATE,
 );
 
