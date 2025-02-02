@@ -26,5 +26,5 @@ try:
             ) as connection:
                 print(connection)
 
-except Error as e:
+except mysql.connector.Error as e:
     print("Error: ", e)
